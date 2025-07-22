@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Accommodation | Kampung Mesilau</title>
+  <link rel="stylesheet" href="activities.css" />
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="nav-container">
+
+ 
+    <a href="webmaster.html" class="logo">
+  <img src="image/logotravelwise2.PNG" alt="TravelWise Logo">
+</a>
+
+  
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">History ▼</a>
+        <div class="dropdown">
+          <div class="dropdown-item">
+            <a href="history.html" class="dropdown-link">History</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="culture.html" class="dropdown-link">Culture</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="ethnic.html" class="dropdown-link">Ethnic</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Attractions ▼</a>
+        <div class="dropdown">
+          <div class="dropdown-item">
+            <a href="attractions.html" class="dropdown-link">Attraction</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="activities.html" class="dropdown-link">Activities</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="scenic-views.html" class="dropdown-link">View</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="local-food.html" class="dropdown-link">Local Food</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Facilities ▼</a>
+        <div class="dropdown">
+          <div class="dropdown-item">
+            <a href="accommodation.html" class="dropdown-link">Accommodation</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="public-facilities.html" class="dropdown-link">Public Facilities</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Travel Tips ▼</a>
+        <div class="dropdown">
+          <div class="dropdown-item">
+            <a href="tourism_tips.html" class="dropdown-link">Travel Tips</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="Forbidden.html" class="dropdown-link">Forbidden Things To Do</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="right_time.html" class="dropdown-link">Right Time to Visit</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <button class="mobile-toggle">☰</button>
+  </div>
+</nav>
+
+   
+    <main class="main-content">
+      <div class="container">
+        <div class="page-header">
+          <h1>Activities at Kampung Mesilau</h1>
+          <p class="page-subtitle">Exciting adventures and experiences awaiting you in this mountain village</p>
+        </div>
+
+        <section class="attraction-section" id="outdoor-activities">
+          <div class="attraction-header">
+            <h2>🌲 Outdoor Activities</h2>
+          </div>
+          <div class="attraction-content">
+            <p>Hiking through Mesilau Nature Park is the top activity in the area, offering a chance to explore well-kept trails surrounded by rare flora and fauna. Birdwatching and forest walks allow close encounters with Sabah’s unique montane biodiversity.</p>
+            <p>Scenic viewpoints reveal panoramic vistas of Mount Kinabalu and surrounding valleys—perfect for early-morning exploration. For thrill-seekers, rock climbing and bouldering are also available with proper guides and safety gear.</p>
+            <div class="highlight-box"><strong>Best Tip:</strong> Start your hike between 6–9AM for clear views and active wildlife.</div>
+          </div>
+        </section>
+
+        <section class="attraction-section" id="cultural-experiences">
+          <div class="attraction-header">
+            <h2>🎭 Cultural Experiences</h2>
+          </div>
+          <div class="attraction-content">
+            <p>Engage in homestay programs, cooking classes, and traditional dance sessions that immerse you in Kadazandusun customs. Learn local crafts and join seasonal festivals to experience authentic mountain village life.</p>
+            <div class="highlight-box"><strong>Fun Fact:</strong> Some homestays teach you how to make *Hinava*, a local raw fish delicacy!</div>
+          </div>
+        </section>
+
+        <section class="attraction-section" id="relaxation-wellness">
+          <div class="attraction-header">
+            <h2>🧘‍♀️ Relaxation & Wellness</h2>
+          </div>
+          <div class="attraction-content">
+            <p>The peaceful atmosphere of Kampung Mesilau makes it perfect for meditation, yoga, and mindful retreats. Wake up to birdsong and rest with views of mist-covered hills in the evening.</p>
+            <div class="highlight-box"><strong>Don’t Miss:</strong> Photography lovers should visit at sunrise for golden light on Mount Kinabalu!</div>
+          </div>
+        </section>
+
+        <section class="attraction-section" id="adventure-sports">
+          <div class="attraction-header">
+            <h2>🚴 Adventure Sports</h2>
+          </div>
+          <div class="attraction-content">
+            <p>From mountain biking along forest paths to river trekking with local guides, Kampung Mesilau offers rugged experiences for adrenaline lovers. Multi-day trekking expeditions into untouched forest trails are also available for the most adventurous.</p>
+            <div class="highlight-box"><strong>Note:</strong> Always trek with a licensed local guide for safety and insight!</div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+   
+    <footer class="main-footer">
+      <div class="container">
+        <h3>About Mersilau Guide</h3>
+        <p>We are passionate about showcasing the serene beauty and unique culture of Kampung Mesilau. Our goal is to provide you with the best information to make your trip unforgettable.</p>
+        <p class="copyright">&copy; 2025 Travel Wise. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+ 
+  <button class="scroll-top" onclick="scrollToTop()">↑</button>
+
+  <script>
+    window.addEventListener('scroll', function () {
+      const scrollTop = document.querySelector('.scroll-top');
+      scrollTop.classList.toggle('visible', window.pageYOffset > 300);
+    });
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
